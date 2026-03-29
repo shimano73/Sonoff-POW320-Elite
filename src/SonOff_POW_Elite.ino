@@ -180,15 +180,8 @@ void setup() {
   Supla::GUI::addCSE7766(ConfigESP->getGpio(FUNCTION_CSE7766_RX));
   improvSerialComponent->disable();
 
-  auto button = new Supla::Control::Button(0, true);
+  auto button = new Supla::Control::Button(0, false,false);
   button->addAction(Supla::TOGGLE, relay,Supla::ON_PRESS); 
-
-  
-
-
-
-
-
 
 //  new Supla::Sensor::EspFreeHeap();
 

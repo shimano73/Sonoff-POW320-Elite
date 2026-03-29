@@ -40,13 +40,13 @@ void BistableRelay::onInit() {
 
 void BistableRelay::turnOn(_supla_int_t duration) {
     startPulse(setPin);
-   // VirtualRelay::turnOn(duration);
+    VirtualRelay::turnOn(duration);
     getChannel()->setNewValue(true); 
 }
 
 void BistableRelay::turnOff(_supla_int_t duration) {
     startPulse(resetPin);
-    //VirtualRelay::turnOff(duration);
+    VirtualRelay::turnOff(duration);
     getChannel()->setNewValue(false);
 }
 /*
