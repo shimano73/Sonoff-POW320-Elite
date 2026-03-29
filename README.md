@@ -1,0 +1,1 @@
+This is the firmware version for the Sonoff POW320 Elite, supported by Supla. Based on the earlier GUI_Generic version by krycha88, it adds support for a dual-coil bistable relay and a TM1621-based display.
